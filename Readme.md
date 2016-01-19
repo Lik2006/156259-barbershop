@@ -1,6 +1,7 @@
-# Учебный проект «Барбершоп»
+﻿# Учебный проект «Барбершоп»
 
-* Студент: [Кирилл Шелег](https://htmlacademy.ru/profile/id156259).
+* Студент: [Кирилл Шелег](https://htmlacademy.ru/profile/id156259).,
+* Наставник[Алексей Белов](https://htmlacademy.ru/profile/id96038).
 
 ---
 
