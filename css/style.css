@@ -10,6 +10,9 @@ body {
 body {background-image: url(../img/bg.jpg) ;
   background-repeat: no-repeat;
 }
+.bg{background-image: url(../img/bg_shop.png) ;
+
+}
 .clearfix::after {
   content: "";
 
@@ -145,28 +148,119 @@ h1{
   padding-bottom: 30px;
   padding-left: 15px;
   list-style-type: none;
-
-
+  font-size: 13px;
+  color: #aba9a7;
+  color: #000000;
+}
+.breadcrumbs li a{
+  text-decoration:none;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #000000;
 }
 .selection{
   float: left;
-  margin-top: 20px;
+  margin-top: 40px;
   padding: 10px
-  width: 230px;
+  width: 220px;
   min-height: 900px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #000000;
+}
+fieldset{border: none;}
 
+.selection h2{
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.button{
+  width: 115px;
+  height: 45px;
+  margin-left: 10px;
+  padding: auto;
+  border: none;
+  background-color: #000000;
+  color: #777777;
+  font-size: 12px;
+  text-transform: uppercase;
 }
 
-.product{display: inline-block;
-  vertical-align: top;
-    width: 180px;
-    font-size:16px;
-}
-.product:nth-child(3n) {
-  margin-right: 0;}
+.products{
+  margin-top: 40px;
+  float: right;
+  width: 720px;
 
-.pagination{
+}
+.product{
   float: left;
+width: 220px;
+height: 280px;
+background-color: #ffffff;
+margin-right: 20px;
+margin-top: 20px;
+box-shadow:0 0 1px 1px #e2e0dd;
+}
+.product a  {
+  text-decoration: none;
+}
+.category{float: left;
+  font-size: 9px;
+  text-decoration: none;
+  color: #000000;
+  padding-left: 20px;
+}
+
+  .title{float: left;
+    font-size: 12px;
+    text-decoration: none;
+    color: #000000;
+    padding-left: 20px;
+    text-transform: uppercase;
+  }
+  .buy{
+float: left;
+width: 190px;
+height: 45px;
+margin-left: 15px;
+margin-top: 20px;
+margin-bottom: 15px;
+
+  }
+  .price{
+    float: left;
+    width: 110px;
+    height: 30px;
+    background-color: #e5e5e5;
+    text-align: center;
+    padding-top: 15px;
+  }
+.buy a{
+  float: left;
+  width: 80px;
+  height: 30px;
+  background-color: #000000;
+  text-align: center;
+  padding-top: 15px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+.pagination a{
+  float: left;
+  width: 45px;
+  height: 35px;
+  margin-top: 45px;
+  margin-right: 10px;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 10px;
+  text-decoration: none;
+
+
 }
 
 .photo-gallery{
